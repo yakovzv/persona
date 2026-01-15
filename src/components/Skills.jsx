@@ -5,18 +5,17 @@ const skillsData = [
     category: 'Backend',
     skills: [
       { name: 'Python', level: 95 },
-      { name: 'FastAPI', level: 90 },
-      { name: 'Django', level: 85 },
-      { name: 'PostgreSQL', level: 88 },
-      { name: 'Redis', level: 82 },
+      { name: 'FastAPI', level: 95 },
+      { name: 'Django', level: 75 },
+      { name: 'PostgreSQL', level: 89 },
+      { name: 'Redis', level: 89 },
     ],
   },
   {
     category: 'Frontend',
     skills: [
-      { name: 'React', level: 88 },
-      { name: 'TypeScript', level: 80 },
-      { name: 'JavaScript', level: 90 },
+      { name: 'React', level: 70 },
+      { name: 'JavaScript', level: 65 },
       { name: 'HTML/CSS', level: 92 },
       { name: 'Vue.js', level: 75 },
     ],
@@ -24,11 +23,10 @@ const skillsData = [
   {
     category: 'DevOps & Tools',
     skills: [
-      { name: 'Docker', level: 88 },
+      { name: 'Docker', level: 90 },
       { name: 'Git', level: 92 },
       { name: 'Linux', level: 85 },
       { name: 'CI/CD', level: 80 },
-      { name: 'AWS', level: 75 },
     ],
   },
 ];

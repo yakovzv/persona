@@ -2,25 +2,18 @@ import './Experience.css';
 
 const experienceData = [
   {
-    title: 'Senior Full Stack Developer',
-    company: 'Tech Company',
-    period: '2022 - Present',
-    description: 'Leading development of microservices architecture using Python and FastAPI. Building responsive frontend applications with React. Managing CI/CD pipelines and cloud infrastructure.',
-    technologies: ['Python', 'FastAPI', 'React', 'PostgreSQL', 'Docker', 'AWS'],
+    title: 'Главный разработчик (серверная часть)',
+    company: 'Северсталь',
+    period: '2023 - Present',
+    description: 'Тим лид кроссфункциональной команды разработки. Занимаюсь проектированием микросервисной архитектуры, руковожу и участвую в разработке продукта компьютерного зрения.',
+    technologies: ['Python', 'FastAPI', 'React', 'PostgreSQL', 'Docker', 'YOLO'],
   },
   {
-    title: 'Full Stack Developer',
-    company: 'Software Agency',
-    period: '2020 - 2022',
-    description: 'Developed and maintained multiple client projects. Built RESTful APIs and integrated third-party services. Collaborated with design teams to implement pixel-perfect UIs.',
-    technologies: ['Django', 'Vue.js', 'MySQL', 'Redis', 'Git'],
-  },
-  {
-    title: 'Backend Developer',
-    company: 'Startup',
-    period: '2018 - 2020',
-    description: 'Built scalable backend systems from scratch. Implemented real-time data processing pipelines. Optimized database queries and improved application performance.',
-    technologies: ['Python', 'Flask', 'PostgreSQL', 'RabbitMQ', 'Linux'],
+    title: 'Backend Python Developer',
+    company: 'Black Wall Group',
+    period: '2022 - 2023',
+    description: 'Разработка отказоустойчивых микросервисов',
+    technologies: ['Python', 'Golang', 'FastAPI', 'MySQL', 'Postgres', 'Clickhouse', 'Mongo', 'Redis', 'Git'],
   },
 ];
 
