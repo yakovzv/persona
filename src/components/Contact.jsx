@@ -1,41 +1,19 @@
-import { useState } from 'react';
 import './Contact.css';
 
 const Contact = () => {
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
-  });
-
-  const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission - integrate with your backend or email service
-    console.log('Form submitted:', formData);
-    alert('Thanks for reaching out! I\'ll get back to you soon.');
-    setFormData({ name: '', email: '', message: '' });
-  };
-
   return (
     <section id="contact" className="contact">
       <div className="section-header">
-        <h2 className="section-title">Get In Touch</h2>
-        <p className="section-subtitle">Let's work together</p>
+        <h2 className="section-title">Связаться со мной</h2>
+        <p className="section-subtitle">Давайте работать вместе</p>
       </div>
       <div className="contact-container">
         <div className="contact-info">
-          <h3 className="contact-heading">Let's Connect</h3>
+          <h3 className="contact-heading">Давайте общаться</h3>
           <p className="contact-text">
-            I'm always interested in hearing about new opportunities,
-            collaborations, or just having a chat about technology.
-            Feel free to reach out!
+            Я всегда открыт к новым возможностям, сотрудничеству
+            или просто разговору о технологиях.
+            Не стесняйтесь написать мне!
           </p>
           <div className="contact-links">
             <a href="mailto:your.email@example.com" className="contact-link">
@@ -59,52 +37,18 @@ const Contact = () => {
                 <span className="link-value">linkedin.com/in/yakov-zubets-833945231/</span>
               </div>
             </a>
+            <a href="https://t.me/yakov_zv" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <div className="link-icon">TG</div>
+              <div className="link-content">
+                <span className="link-label">Telegram</span>
+                <span className="link-value">@yakov_zv</span>
+              </div>
+            </a>
           </div>
         </div>
-        <form className="contact-form" onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={formData.name}
-              onChange={handleChange}
-              placeholder="Your name"
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={formData.email}
-              onChange={handleChange}
-              placeholder="your.email@example.com"
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="message">Message</label>
-            <textarea
-              id="message"
-              name="message"
-              value={formData.message}
-              onChange={handleChange}
-              placeholder="Your message..."
-              rows="5"
-              required
-            ></textarea>
-          </div>
-          <button type="submit" className="btn btn-primary btn-submit">
-            Send Message
-          </button>
-        </form>
       </div>
       <footer className="footer">
-        <p>&copy; {new Date().getFullYear()} Yakov Zubets. All rights reserved.</p>
+        <p>&copy; {new Date().getFullYear()} Яков Зубец. Все права защищены.</p>
       </footer>
     </section>
   );

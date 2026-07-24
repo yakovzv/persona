@@ -37,8 +37,8 @@ const Skills = () => {
   return (
     <section id="skills" className="skills">
       <div className="section-header">
-        <h2 className="section-title">Skills & Expertise</h2>
-        <p className="section-subtitle">Technologies I work with</p>
+        <h2 className="section-title">Навыки и компетенции</h2>
+        <p className="section-subtitle">Технологии, с которыми я работаю</p>
       </div>
       <div className="skills-grid">
         {skillsData.map((category, index) => (

@@ -4,9 +4,9 @@ const Hero = () => {
   return (
     <section id="hero" className="hero">
       <div className="hero-content">
-        <div className="hero-greeting">Hello, I'm</div>
+        <div className="hero-greeting">Привет, я</div>
         <h1 className="hero-name">Яков Зубец</h1>
-        <h2 className="hero-title">Backend Developer</h2>
+        <h2 className="hero-title">Backend-разработчик</h2>
         <p className="hero-description">
           Как backend-разработчик, я живу на стыке настоящего и будущего IT.
           Моя страсть — это не просто писать код, а создавать масштабируемые решения, которые будут работать завтра так же эффективно, как сегодня.
@@ -18,13 +18,13 @@ const Hero = () => {
             className="btn btn-primary"
             onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            Get In Touch
+            Связаться со мной
           </button>
           <button
             className="btn btn-secondary"
             onClick={() => document.getElementById('experience')?.scrollIntoView({ behavior: 'smooth' })}
           >
-            View My Work
+            Посмотреть мои работы
           </button>
         </div>
       </div>

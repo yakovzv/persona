@@ -4,12 +4,12 @@ const experienceData = [
   {
     title: 'Главный разработчик (серверная часть)',
     company: 'Северсталь',
-    period: '2023 - Present',
+    period: '2023 - настоящее время',
     description: 'Тим лид кроссфункциональной команды разработки. Занимаюсь проектированием микросервисной архитектуры, руковожу и участвую в разработке продукта компьютерного зрения.',
     technologies: ['Python', 'FastAPI', 'React', 'PostgreSQL', 'Docker', 'YOLO'],
   },
   {
-    title: 'Backend Python Developer',
+    title: 'Python-разработчик (серверная часть)',
     company: 'Black Wall Group',
     period: '2022 - 2023',
     description: 'Разработка отказоустойчивых микросервисов',
@@ -21,8 +21,8 @@ const Experience = () => {
   return (
     <section id="experience" className="experience">
       <div className="section-header">
-        <h2 className="section-title">Experience</h2>
-        <p className="section-subtitle">My professional journey</p>
+        <h2 className="section-title">Опыт работы</h2>
+        <p className="section-subtitle">Мой профессиональный путь</p>
       </div>
       <div className="experience-timeline">
         {experienceData.map((exp, index) => (
