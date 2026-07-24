@@ -7,9 +7,9 @@
 
 .contact-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 4rem;
-  max-width: 1100px;
+  max-width: 600px;
   margin: 0 auto;
   flex: 1;
 }
