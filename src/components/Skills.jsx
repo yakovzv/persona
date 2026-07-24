@@ -9,6 +9,7 @@ const skillsData = [
       { name: 'Django', level: 75 },
       { name: 'PostgreSQL', level: 89 },
       { name: 'Redis', level: 89 },
+      { name: 'Kafka', level: 80 },
     ],
   },
   {
@@ -27,6 +28,7 @@ const skillsData = [
       { name: 'Git', level: 92 },
       { name: 'Linux', level: 85 },
       { name: 'CI/CD', level: 80 },
+      { name: 'Kubernetes', level: 80 },
     ],
   },
 ];
