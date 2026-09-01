@@ -41,7 +41,7 @@ const Contact = () => {
               <div className="link-icon">TG</div>
               <div className="link-content">
                 <span className="link-label">Telegram</span>
-                <span className="link-value">@yakov_zv</span>
+                <span className="link-value">@yakov_zubets</span>
               </div>
             </a>
           </div>
